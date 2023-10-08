@@ -1,61 +1,66 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Siem de Jong MSc",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "siem.dejong@radboudumc.nl",
+    "url": "siemdejong.github.io"
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
+      "name": "Radboudumc",
+      "position": "PhD candidate pathology",
+      "url": "https://www.computationalpathologygroup.eu",
+      "startDate": "Sep. 2023"
+    },
+    {
+      "name": "VU Amsterdam, Biophotonics and Medical Imaging",
+      "position": "Research intern",
+      "url": "vu.nl/en/about-vu/more-about/biophotonics-medical-imaging2",
+      "startDate": "Sep. 2022",
+      "endData": "Jun. 2023",
+      "summary": "The project goal was to develop a multiple instance deep learning approach to instantly classify several pediatric brain tumors in weakly labelled higher harmonic generatio microscopy images. \\nA secondary project goal was to apply deep learning on human skin tissue to predict stretch information from single second harmonic generation microscopy skin images.\\nTo be able to interpret results and to improve model accuracy and transparency is of vital importance in health care. To that end, the project aimed to implement explainable artificial intelligence procedures."
+    },
+    {
+      "name": "VU Amsterdam, Physics of Living Systems",
+      "position": "Student assistant",
+      "url": "vu.nl/en/about-vu/more-about/physics-of-living-systems",
+      "startDate": "Sep. 2021",
+      "endData": "Oct. 2021",
+      "summary": "After my bachelor project, I experimented with passivating microscope slides for use with ice binding proteins (IBPs). This exploratory, experimental study aimed to limit glass-IBP interactions in future studies."
     }
   ],
-  "volunteer": [],
+  "volunteer": [
+    {
+      "name": "Zeilschool Scouting Nederland",
+      "position": "Board member | Sailing instructor",
+      "startDate": "May 2026",
+      "description": "Sailing instructor and board member at a non-profit sailing school for sea scouts.\\n\\nOct. 2021 -- present∙ general board member;\\nMay 2016 -- present ∙ CWO Keelboat Instructor;\\nSep. 2018 -- Oct. 2021 ∙ head of the materials committee."
+    },
+    {
+      "name": "Scouting Mango Kwane Wilco Jiskoot",
+      "position": "Scout Leader",
+      "startDate": "Okt. 2028",
+      "endDate": "Jul. 2023",
+      "description": "I helped 10-15 children experience new adventures such as sailing, canoeing and building rafts. I like to take on big challenges, such as organising summer camps!\\n\\nSep. 2020 -- Jul. 2023 ∙ sea scouts leader;\\nOct. 2018 -- Jul. 2020 ∙ cub scouts leader."
+    }
+  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
-    }
-  ],
-  "awards": [
+      "institution": "University of Amsterdam & VU Amsterdam, Amsterdam, Netherlands",
+      "url": "https://www.uva.nl/shared-content/programmas/en/masters/physics-and-astronomy-biophysics-and-biophotonics/",
+      "area": "Biophysics and Biophotonics",
+      "studyType": "Master of Science",
+      "startDate": "2021",
+      "endDate": "2023",
+      "score": "8.9"
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "University of Amsterdam & VU Amsterdam, Amsterdam, Netherlands",
+      "url": "https://www.uva.nl/programmas/bachelors/natuur--en-sterrenkunde/natuur--en-sterrenkunde.html",
+      "area": "Physics and Astronomy",
+      "studyType": "Bachelor of Science",
+      "startDate": "2018",
+      "endDate": "2021"
     }
   ],
   "certificates": [],
@@ -63,7 +68,7 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Dutch",
       "fluency": "Native speaker"
     },
     {
