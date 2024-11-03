@@ -1,36 +1,24 @@
 ---
 layout: default
-title: "The high quality, completely customizable, performant and 100% free blog template for Jekyll"
-description: "Chalk uses all the best tools and merges them into one premium blogging theme."
+title: "About"
+description: "About me."
 ---
 
-<ul class="article-list">
-  {% for post in paginator.posts %}
-    <li class="article-list-item {% if site.scrollappear_enabled %}scrollappear{% endif %}">
-      <a href="{{ post.url | relative_url }}" title="{{ post.title }}">
-        <h5>
-          {{ post.title }}
-          {% include svg-icon.html icon="arrow-right" %}
-        </h5>
-      </a>
-      <p>
-        {% if post.description %}
-          {{ post.description }}  
-        {% else %}
-          {{ post.excerpt }}
-        {% endif %}
-      </p>
-      {% include article/info-footer.html post=post %}
+<div class="about {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+  <h1>About me</h1>
+  <p>
+    I'm a PhD candidate in the <a href="https://computationalpathologygroup.eu">Radboudumc Computational Pathology Group</a> since September 2023.
+    As part of the <a href="https://imagioproject.eu/">IMAGIO project</a>, I'm developing AI algorithms to detect lung cancer in higher harmonic generation microscopy (HHGM) images of biopsies and resections for intraoperative decision-making.
+    I obtained my Master's degree (cum laude) in <a href="https://www.uva.nl/shared-content/programmas/en/masters/physics-and-astronomy-biophysics-and-biophotonics/biophysics-and-biophotonics.html">Biophysics and Biophotonics at the University of Amsterdam and VU Amsterdam</a> where I applied deep learning to HHGM images of human skin tissue for stress-strain curve regression, and pediatric brain tissue for tumor classification.
+  </p>
+
+  <h1>Publications</h1>
+  <!-- Use this website to convert items in bibliography.bib manually: https://asouqi.github.io/bibtex-converter/. -->
+  <ul>
+    <li>
+      <div class="csl-bib-body">
+        <div data-csl-entry-id="jong2024weakly" class="csl-entry">de Jong, S., Groot, M. L., Verhoeven, R. L. J., van der Heijden, E. H. F. M., &#38; Ciompi, F. (2024). Weakly supervised lung cancer detection on label-free intraoperative microscopy with higher harmonic generation. <i>Medical Imaging with Deep Learning</i>. <a href="https://openreview.net/pdf?id=GYSPQ8tXLe">https://openreview.net/pdf?id=GYSPQ8tXLe</a></div>
+      </div>
     </li>
-  {% endfor %}
-  {% if paginator.total_pages > 1 %}
-    <li class="article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} Older posts</a>
-      {% endif %}
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="article-pagination-right">Newer posts {% include svg-icon.html icon="arrow-right" %}</a>
-      {% endif %}
-    </li>
-  {% endif %}
-</ul>
+  </ul>
+</div>

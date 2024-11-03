@@ -1,11 +1,12 @@
 <nav class="header-nav {% if site.scrollappear_enabled %}scrollappear{% endif %}">
   <a href="{{ '/' | relative_url }}" class="header-logo" title="{{ site.name }}">{{ site.name }}</a>
   <ul class="header-links">
-    {% if site.about_enabled == true %}
+    {% if site.blog_enabled == true %}
       <li>
-        <a href="{{ 'about' | relative_url }}" title="About me">
-          {% include svg-icon.html icon="about" %}
-        </a>
+        <a href="{{ 'blog' | relative_url }}" title="Blog" style="text-decoration:none">
+          {% include svg-icon.html icon="blog" %}
+          Blog
+        </a>        
       </li>
     {% endif %}
     {% if site.social.twitter %}
