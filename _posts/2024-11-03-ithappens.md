@@ -2,6 +2,15 @@
 title: "It Happens"
 excerpt: "Create custom Shit Happens playing cards."
 tags: [ithappens]
+gallery:
+  - url: /assets/images/ithappens/80-you-dont-know-how-to-use-this-tool.png
+    image_path: /assets/images/ithappens/80-you-dont-know-how-to-use-this-tool.png
+    alt: "Example card: You don't know how to use this tool. Misery index 80."
+    title: Example card.
+  - url: /assets/images/ithappens/ithappens-zsn-editie.jpg
+    image_path: /assets/images/ithappens/ithappens-zsn-editie.jpg
+    alt: "Printed cards."
+    title: Printed cards.
 ---
 
 ## Background
@@ -38,5 +47,4 @@ Download the cards, go to your local printer shop, let them cut using the crop m
 It Happens is open source ([siemdejong/ithappens](https://github.com/siemdejong/ithappens)) and available under the GNU General Public License v3.0.
 Contributions welcome!
 
-{% include figure popup=true image_path="/assets/images/ithappens/80-you-dont-know-how-to-use-this-tool.png" alt="You don't know how to build this tool, misery index 80." caption="Front of an example card." %}
-
+{% include gallery %}
