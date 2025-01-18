@@ -1,6 +1,6 @@
 ---
-title: "It Happens"
-excerpt: "Create custom Shit Happens playing cards."
+title: "Easily create your own Shit Happens card game"
+excerpt: "For a personalized game night with friends."
 tags: [ithappens]
 gallery:
   - url: /assets/images/ithappens/80-you-dont-know-how-to-use-this-tool.png
