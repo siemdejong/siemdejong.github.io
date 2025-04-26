@@ -18,13 +18,13 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Siem de Jong's personal website.
 github_username: siemdejong
-minimal_mistakes_skin: default
+minimal_mistakes_skin: sunrise
 search: true
 repository: "siemdejong/siemdejong.github.io"
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+theme: "minimal-mistakes-jekyll"
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
@@ -54,6 +54,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll/scholar
 
 author:
   home: https://siemdejong.github.io
@@ -80,6 +81,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
@@ -97,3 +99,8 @@ tag_archive:
 
 feed:
   url: "https://siemdejong.github.io"
+
+scholar:
+  sort_by: "year,month"
+  order: "descending"
+  repository: "assets/publications"
