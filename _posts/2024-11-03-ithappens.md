@@ -1,5 +1,5 @@
 ---
-title: "Easily create your own Shit Happens card game"
+title: "Easily create your own It Happens card game"
 excerpt: "For a personalized game night with friends."
 tags: [ithappens]
 gallery:
