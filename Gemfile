@@ -19,4 +19,5 @@ group :jekyll_plugins do
   gem "ostruct"
   gem "faraday-retry"
   gem "jekyll-scholar"
+  gem "webrick", "~> 1.9"
 end
