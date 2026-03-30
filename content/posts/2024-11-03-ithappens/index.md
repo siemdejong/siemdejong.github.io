@@ -37,8 +37,10 @@ Click "Create cards" and wait for the app to finish.
 Download the cards, go to your local printer shop, let them cut using the crop marks, and voilà, you now have your custom It Happens cards!
 
 ## Development
-It Happens is open source ([siemdejong/ithappens](https://github.com/siemdejong/ithappens)) and available under the GNU General Public License v3.0.
+It Happens is open source and available under the GPLv3 license.
 Contributions welcome!
+
+{{< github repo="siemdejong/ithappens" showThumbnail=false >}}
 
 ## Examples
 
