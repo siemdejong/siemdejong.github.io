@@ -75,6 +75,5 @@ title = ""
     # { ko-fi = "https://ko-fi.com/username" },
     # { codeberg = "https://codeberg.org/username"},
     # { printables = "https://www.printables.com/@username"},
-    # { pgpkey = "https://siemdejong.nl/pgp"}
     { pgpkey = "/pgp"}
   ]
