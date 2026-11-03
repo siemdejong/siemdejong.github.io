@@ -58,7 +58,6 @@ title = ""
     { google-scholar = "https://scholar.google.com/citations?user=lvjaKy4AAAAJ" },
     # { signal = "https://signal.me/#eu/userid" },
     # { slack = "https://workspace.url/team/userid" },
-    # { snapchat = "https://snapchat.com/add/username" },
     # { soundcloud = "https://soundcloud.com/username" },
     # { spotify = "https://open.spotify.com/user/userid" },
     # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
