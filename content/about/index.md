@@ -6,6 +6,7 @@ showEdit: false
 showDate: false
 showWordCount: false
 showReadingTime: false
+showPagination: false
 ---
 
 Hey! I'm a PhD candidate in the [Radboudumc Computational Pathology Group](https://computationalpathologygroup.eu) developing AI algorithms to detect lung cancer in label-free microscopy for intraoperative decision-making.
