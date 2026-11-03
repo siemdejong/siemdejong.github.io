@@ -1,0 +1,31 @@
+---
+title: "OpenPGP"
+draft: false
+date: 2026-11-02T12:05:00-05:00
+showAuthor: false
+showEdit: false
+showWordCount: false
+showReadingTime: false
+---
+## Fingerprint
+```
+BB7B 2B46 BC20 0293 5F7B  859F BBA3 2FE5 6C7F 02BB
+```
+
+## Public key
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEaunZwBYJKwYBBAHaRw8BAQdASXeOcevHhpfT678J8uF/4znObcIKM93w6glu
+BSdaK8a0EXBncEBzaWVtZGVqb25nLm5siJYEExYIAD4WIQS7eytGvCACk197hZ+7
+oy/lbH8CuwUCaunZwAIbAwUJA8JnAAULCQgHAgYVCgkICwIEFgIDAQIeAQIXgAAK
+CRC7oy/lbH8Cu1TzAQCe72CqfPgYw7o3m6Zpt8HYXzdbRcoD3qPh4lRon6OTcwEA
+iUqtCzp/cWYQhGH6yvloKl9h46vMPTIh9gK8KiCuVgG4OARq6dnAEgorBgEEAZdV
+AQUBAQdADhwTJQ0lRFMuJaxmKdo9VsoW22JvKW77TrPJsMGaVVkDAQgHiH4EGBYI
+ACYWIQS7eytGvCACk197hZ+7oy/lbH8CuwUCaunZwAIbDAUJA8JnAAAKCRC7oy/l
+bH8Cu2FRAQCzwx60PEEqQevq2Gskc9yD+zJl3wSD0JlaP8BhqaYJTwEAyIS9wcOG
+5bTS/xws69C3YgIprSYlXLVrheb9qP04Egg=
+=8BU0
+-----END PGP PUBLIC KEY BLOCK-----
+```
+[Download](/publickey.asc)
